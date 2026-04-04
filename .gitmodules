@@ -1,0 +1,4 @@
+[submodule "redirects"]
+	path = redirects
+	url = https://github.com/Keye3Tuido/K3T_private.git
+	branch = redirect
