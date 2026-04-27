@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true
-          token: ${{ secrets.K3T_URL_REDIRECT_DEPLOY }}
+          token: ${{ secrets.K3T_REPOS }}
 
       - name: Update submodule to latest
         run: |
